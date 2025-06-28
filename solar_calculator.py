@@ -4,7 +4,7 @@ power_kw = float(input("Installed power (kW): "))
 sun_hours = float(input("Average daily sun hours: "))
 efficiency_percent = float(input("System efficiency (% as number, e.g., 80): "))
 
-efficiency = efficiency_percent / 100  # yüzdeyi ondalığa çevir
+efficiency = efficiency_percent / 100
 
 daily_production = power_kw * sun_hours * efficiency
 monthly_production = daily_production * 30
